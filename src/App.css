@@ -1,0 +1,64 @@
+.title {
+  text-align: center;
+  color: #2d559f;
+}
+
+.file-uploader-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+}
+
+.file-uploader-container label {
+  margin-bottom: 5px;
+  color: #2d559f;
+  font-weight: bold;
+}
+
+.action-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.action-container button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  background: #2d559f;
+  color: white;
+  margin: 0px 10px;
+  border-radius: 3px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.table-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.table-container thead {
+  background-color: #8080802e;
+}
+.table-container thead th {
+  padding: 10px 40px;
+  text-align: left;
+}
+
+.table-container tbody {
+  background-color: #f7f7f7;
+}
+.table-container tbody td {
+  padding: 10px 40px;
+  text-align: left;
+}
+.json-code {
+  background: #1c1c1c;
+  width: 60%;
+  margin: auto;
+  color: white;
+  padding: 20px 44px;
+  margin-bottom: 40px;
+}
